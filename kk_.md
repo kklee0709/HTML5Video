@@ -1,4 +1,3 @@
-
 # github
 echo # HTML5Video >> README.md
 git init
@@ -7,19 +6,37 @@ git commit -m "first commit"
 git remote add origin https://github.com/kklee0709/HTML5Video.git
 git push -u origin master
 
-# Server
+# Loca Server
 # Now start your application locally using Foreman, which was installed as part of the Toolbelt:
 # Foreman doesn’t just run your app - it also sets “config vars”, something you’ll encounter in a later tutorial.
 
 foreman start web == node index.js
-
-# client
-http://localhost:5000/
-curl -i http://localhost:5000/
-
 http://localhost:5000/cocotuts/
 http://localhost:5000/Adam/
-http://localhost:5000/faces
+http://localhost:5000/faces/
+curl -i http://localhost:5000/
+
+# Push to GitHub
+git add .
+git commit -m "version 0.1"
+git push origin master
+
+# push/Deploy to Heroku
+# https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes
+$ heroku login
+$ heroku create
+git add .
+git commit -m "Demo"
+git push heroku master
+heroku open
+
+heroku apps:rename html5videoplayer-kk-
+
+# Access heroku
+https://html5videoplayer-kk-.herokuapp.com/cocotuts/
+https://html5videoplayer-kk-.herokuapp.com/Adam/
+https://html5videoplayer-kk-.herokuapp.com/faces/
+
 
 # 디버그 모드 실행
 node --debug index.js
