@@ -2,22 +2,29 @@
 
 A Node.js app using [Express 4](http://expressjs.com/).
 
-## github
+## github repo set-up
+```
 $ echo # HTML5Video >> README.md
 $ git init
 $ git add README.md
 $ git commit -m "first commit"
 $ git remote add origin https://github.com/kklee0709/HTML5Video.git
 $ git push -u origin master
+```
 
 ## Local Server
 Now start your application locally using Foreman, which was installed as part of the Toolbelt: Foreman doesn’t just run your app - it also sets “config vars”, something you’ll encounter in a later tutorial.
+```
+$ foreman start web
+```
+OR 
+```
+$ node index.js
+```
 
-$ foreman start web OR $ node index.js
-
-[http://localhost:5000/](http://localhost:5000/).
-[http://localhost:5000/cocotuts/](http://localhost:5000/cocotuts/).
-[http://localhost:5000/Adam/](http://localhost:5000/Adam/).
+- [http://localhost:5000/](http://localhost:5000/).
+- [http://localhost:5000/cocotuts/](http://localhost:5000/cocotuts/).
+- [http://localhost:5000/Adam/](http://localhost:5000/Adam/).
 [curl -i http://localhost:5000/](curl -i http://localhost:5000/).
 [xyz](xyz).
 [xyz](xyz).
