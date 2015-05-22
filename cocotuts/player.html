@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="player.css">
+	<script type="text/javascript" src="player.js"></script>
+</head>
+<body>
+
+	<ul <p>Tutorial and Sample source code from:</p>
+	    <li><a href="http://www.cocotuts.com/">Create An HTML5 Video Player From Scratch @www.cocotuts.com/</a></li>
+	    <li><a href="https://www.udemy.com/html5-video-player/#/"> Create An HTML5 Video Player From Scratch @Udemy</a></li>
+	</ul>
+
+
+	<div id="player">
+
+		<div id="video-container">
+			<div id="screen">
+				<img id="screen-button" src="images/play.png">
+			</div>
+			<video id="video" poster="images/thumbnail.png">
+				<source src="sample.mp4">
+				<source src="http://praegnanz.de/html5video/player/video_SD.mp4">
+				It seems your browser doesn't support the HTML5 video tag. Please update it!
+			</video>
+		</div>
+
+		<div id="pbar-container">
+			<div id="pbar"></div>
+		</div>
+
+		<div id="buttons-container">
+			<img id="play-button" src="images/play.png">
+			<div id="time-field">
+				0:00 / 0:00
+			</div>
+			<img id="sound-button" src="images/sound.png">
+			<div id="sbar-container">
+				<div id="sbar"></div>
+			</div>
+			<img id="fullscreen-button" src="images/fullscreen.png">
+		</div>
+
+	</div>
+
+</body>
+</html>
