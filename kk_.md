@@ -10,20 +10,20 @@ OR
 $ node index.js
 ```
 
-- [http://localhost:5000/](http://localhost:5000/).
-- [http://localhost:5000/cocotuts/](http://localhost:5000/cocotuts/).
-- [http://localhost:5000/Adam/](http://localhost:5000/Adam/).
-- [curl -i http://localhost:5000/](curl -i http://localhost:5000/).
-- [xyz](xyz).
-[xyz](xyz).
-[xyz](xyz).
+- [http://localhost:5000/](http://localhost:5000/)
+- [http://localhost:5000/cocotuts/](http://localhost:5000/cocotuts/)
+- [http://localhost:5000/Adam/](http://localhost:5000/Adam/)
+- [curl -i http://localhost:5000/](curl -i http://localhost:5000/)
+- [xyz](xyz)
+[xyz](xyz)
+[xyz](xyz)
 
 ## Running heroku app
 
-- [https://html5videoplayer-kk-.herokuapp.com/](https://html5videoplayer-kk-.herokuapp.com/).
-- [https://html5videoplayer-kk-.herokuapp.com/cocotuts/](https://html5videoplayer-kk-.herokuapp.com/cocotuts/).
-- [https://html5videoplayer-kk-.herokuapp.com/Adam/](https://html5videoplayer-kk-.herokuapp.com/Adam/).
-- [https://html5videoplayer-kk-.herokuapp.com/faces/](https://html5videoplayer-kk-.herokuapp.com/faces/).
+- [https://html5videoplayer-kk.herokuapp.com/](https://html5videoplayer-kk-.herokuapp.com/)
+- [https://html5videoplayer-kk.herokuapp.com/cocotuts/](https://html5videoplayer-kk-.herokuapp.com/cocotuts/)
+- [https://html5videoplayer-kk.herokuapp.com/Adam/](https://html5videoplayer-kk-.herokuapp.com/Adam/)
+- [https://html5videoplayer-kk.herokuapp.com/faces/](https://html5videoplayer-kk-.herokuapp.com/faces/)
 
 
 ## github
