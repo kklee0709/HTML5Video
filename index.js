@@ -41,7 +41,7 @@ app.use('/',todoRoutes);
 app.listen(app.get('port'), function(req, res) {
   console.log("Node app is running on port:" + app.get('port'))
 
-  app.set('title', 'HTML5 Video Sample Players');
+  app.set('title', 'HTML5 Video Player');
   console.log(app.get('title'));
 })
 
