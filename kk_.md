@@ -20,10 +20,10 @@ $ node index.js
 
 ## Running heroku app
 
-- [https://html5videoplayer-kk.herokuapp.com/](https://html5videoplayer-kk-.herokuapp.com/)
-- [https://html5videoplayer-kk.herokuapp.com/cocotuts/](https://html5videoplayer-kk-.herokuapp.com/cocotuts/)
-- [https://html5videoplayer-kk.herokuapp.com/Adam/](https://html5videoplayer-kk-.herokuapp.com/Adam/)
-- [https://html5videoplayer-kk.herokuapp.com/faces/](https://html5videoplayer-kk-.herokuapp.com/faces/)
+- [https://html5videoplayer-kk.herokuapp.com/](https://html5videoplayer-kk.herokuapp.com/)
+- [https://html5videoplayer-kk.herokuapp.com/cocotuts/](https://html5videoplayer-kk.herokuapp.com/cocotuts/)
+- [https://html5videoplayer-kk.herokuapp.com/Adam/](https://html5videoplayer-kk.herokuapp.com/Adam/)
+- [https://html5videoplayer-kk.herokuapp.com/faces/](https://html5videoplayer-kk.herokuapp.com/faces/)
 
 
 ## github
