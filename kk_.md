@@ -2,23 +2,11 @@
 
 A Node.js app using [Express 4](http://expressjs.com/).
 
-## github repo set-up
-```
-$ echo # HTML5Video >> README.md
-$ git init
-$ git add README.md
-$ git commit -m "first commit"
-$ git remote add origin https://github.com/kklee0709/HTML5Video.git
-$ git push -u origin master
-```
-
-## Start the application locally
+## Start the App locally
 Foreman installed as part of the Toolbelt: Foreman doesn’t just run your app - it also sets “config vars”, something you’ll encounter in a later tutorial.
 ```
 $ foreman start web
-```
 OR
-```
 $ node index.js
 ```
 
@@ -30,12 +18,32 @@ $ node index.js
 [xyz](xyz).
 [xyz](xyz).
 
-## Push to GitHub
+## Running heroku app
+
+- [https://html5videoplayer-kk-.herokuapp.com/](https://html5videoplayer-kk-.herokuapp.com/).
+- [https://html5videoplayer-kk-.herokuapp.com/cocotuts/](https://html5videoplayer-kk-.herokuapp.com/cocotuts/).
+- [https://html5videoplayer-kk-.herokuapp.com/Adam/](https://html5videoplayer-kk-.herokuapp.com/Adam/).
+- [https://html5videoplayer-kk-.herokuapp.com/faces/](https://html5videoplayer-kk-.herokuapp.com/faces/).
+
+
+## github
+Set-up github repo
+```
+$ echo # HTML5Video >> README.md
+$ git init
+$ git add README.md
+$ git commit -m "first commit"
+$ git remote add origin https://github.com/kklee0709/HTML5Video.git
+$ git push -u origin master
+```
+Push to GitHub
+```
 $ git add .
 $ git commit -m "version 0.1"
 $ git push origin master
+```
 
-## push/Deploy to Heroku
+## Heroku: push/Deploy to Heroku
 For more information about using Node.js on Heroku,
 - [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 - [https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes](https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes).
@@ -47,16 +55,11 @@ $ git add .
 $ git commit -m "Demo"
 $ git push heroku master
 $ heroku open
-$ heroku apps:rename html5videoplayer-kk-
+$ heroku apps:rename html5videoplayer-kk
 ```
 
-## Access heroku
 
-- [https://html5videoplayer-kk-.herokuapp.com/](https://html5videoplayer-kk-.herokuapp.com/).
-- [https://html5videoplayer-kk-.herokuapp.com/cocotuts/](https://html5videoplayer-kk-.herokuapp.com/cocotuts/).
-- [https://html5videoplayer-kk-.herokuapp.com/Adam/](https://html5videoplayer-kk-.herokuapp.com/Adam/).
-- [https://html5videoplayer-kk-.herokuapp.com/faces/](https://html5videoplayer-kk-.herokuapp.com/faces/).
-
+----------------------------
 
 # 디버그 모드 실행
 ```
