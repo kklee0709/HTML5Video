@@ -11,6 +11,8 @@ var todoItems = [
 
 router.get('/', function (req, res) {
 
+    // SHOULD BE FIXED !!!!
+
     var bUrl = req.protocol+"://"+req.hostname+":"+req.port;
     console.log("url: "+bUrl);
 
