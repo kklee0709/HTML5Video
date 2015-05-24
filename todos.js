@@ -20,7 +20,7 @@ router.get('/', function (req, res) {
 
     // load data from DB here
     res.render('index', {
-        title: 'HTML5 Video Sample Players',
+        title: 'HTML5 Video Custom Players',
         url: bUrl,
         items: todoItems
     });
