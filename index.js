@@ -29,7 +29,7 @@ app.use(function(req,res,next){
 //https://www.udemy.com/html5-video-player/#/, http://www.cocotuts.com/
 app.use('/cocotuts', express.static(__dirname + '/cocotuts', {'index': ['player.html', 'index.html']}));
 //https://www.developphp.com/video/JavaScript#Video-Programming
-app.use('/Adam', express.static(__dirname + '/Adam', {'index': ['Adam5.html', 'index.html']}));
+app.use('/Adam', express.static(__dirname + '/Adam', {'index': ['player.html', 'index.html']}));
 
 // 3. define routes
 
@@ -65,11 +65,11 @@ app.use(function (req, res, next) {
 
 // Test
 app.use('/faces', function(request, response, next) {
-  console.log("faces");
+  console.log("/faces");
 
 // middleware that don’t generate responses must call next() or requests will never end!
   next();
 });
 app.get('/faces', function(request, response, next) {
-  response.send(cool());
+  response.send("Hello World! "+cool());
 });
